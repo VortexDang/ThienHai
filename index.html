@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html class="no-js" lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>My Portfolio</title>
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+    <link rel="icon" href="favicon.ico" type="image/x-icon" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Lato:300,400,700,900"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="libs/font-awesome/css/font-awesome.min.css" />
+    <link href="css/bootstrap.min.css" rel="stylesheet" />
+    <link href="css/styles.css" rel="stylesheet" />
+  </head>
+
+  <body>
+    <div id="mobile-menu-open" class="shadow-large">
+      <i class="fa fa-bars" aria-hidden="true"></i>
+    </div>
+    <!-- End #mobile-menu-toggle -->
+    <header>
+      <div id="mobile-menu-close">
+        <span>Close</span> <i class="fa fa-times" aria-hidden="true"></i>
+      </div>
+      <ul id="menu" class="shadow">
+        <li>
+          <a href="#about">About</a>
+        </li>
+        <li>
+          <a href="#experience">Experience</a>
+        </li>
+        <li>
+          <a href="#education">Education</a>
+        </li>
+        <li>
+          <a href="#projects">Projects</a>
+        </li>
+        <li>
+          <a href="#skills">Skills</a>
+        </li>
+        <li>
+          <a href="#contact">Contact</a>
+        </li>
+      </ul>
+    </header>
+    <!-- End header -->
+
+    <div id="lead">
+      <div id="lead-content">
+        <h1>Nguyen Duc Thien Hai</h1>
+        <h2>Data Analyst</h2>
+        <a
+          href="./public/CV_NguyenDucThienHai_DataAnalyst.pdf"
+          class="btn-rounded-white"
+          >Download Resume</a
+        >
+      </div>
+      <!-- End #lead-content -->
+
+      <div id="lead-overlay"></div>
+
+      <div id="lead-down">
+        <span>
+          <i class="fa fa-chevron-down" aria-hidden="true"></i>
+        </span>
+      </div>
+      <!-- End #lead-down -->
+    </div>
+    <!-- End #lead -->
+
+    <div id="about">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-4">
+            <h2 class="heading">About Me</h2>
+            <img src="./images/manavatar.png" ; width="300" />
+          </div>
+          <div style="margin-top: 6%" class="col-md-8">
+            <p style="font-size: 18px">
+              I started my journey with data analytics when I realized the
+              importance of data in decision making. Initially, I taught myself
+              basic tools and techniques, then I majored in Data Analytics to
+              develop more in-depth skills.<br /><br />
+              The thing interests me most about data is its ability to uncover
+              information hidden deep within. Transforming raw data into
+              valuable insights and putting them into practice always excites
+              me.<br /><br />
+              My passions lie in relation to data analytics is solving complex
+              problems through data and providing valuable analytics that help
+              improve business performance. I enjoy work that involves
+              analyzing, visualizing data, and finding trends that help make
+              strategic decisions.<br />
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- End #about -->
+
+    <div id="experience" class="background-alt">
+      <h2 class="heading">Experience</h2>
+      <div id="experience-timeline">
+        <div data-date="October 2023 – April 2024">
+          <h3 style="font-weight: 400">
+            FPT Center of Applied Data Science | Data Analyst Intern
+          </h3>
+          <p>
+            <b>- Develop Facebook Crawler:</b><br />
+            + Scrape information about groups, posts, comments and users<br />
+            + Process and transfer scraped data when requested by other
+            parties<br />
+            + Match Facebook accounts with FPT’s Customer Database (30%
+            conversion rate)<br /><br />
+            <b>- Develop Youtube Crawler:</b>
+            + Scrape information about channels, videos, comments and users<br />
+            + Scrape information about channels, videos, comments and users<br />
+            + Match Youtube accounts with FPT’s Customer Database (12%
+            conversion rate)<br /><br />
+            <b>- Build ETL pipeline for Long Chau</b>
+            Pharmacy’s drugs metadata:<br />
+            + Communicate with Data Scientists to understand requirements and
+            design data schema<br />
+            + Clean and consolidate 14 raw datasets<br /><br />
+            <b
+              >- Perform regular data quality check on multiple tables and
+              dataset</b
+            >
+            <br />
+          </p>
+        </div>
+      </div>
+    </div>
+    <!-- End #experience -->
+
+    <div id="education">
+      <h2 class="heading">Education</h2>
+      <div class="education-block">
+        <h3>University of Economics and Law - VNUHCM</h3>
+        <span class="education-date">2020-2024</span>
+        <h4>
+          Major: Electronic commerce
+          <p>GPA: 8.41/10</p>
+        </h4>
+        <br />
+        <h3>Certifications & Achievement</h3>
+        <h4>
+          <p>- IELTS 7.5</p>
+          <p>- Google Data Analytics (Coursera)</p>
+          <p>- Data Analyst Associate (DataCamp)</p>
+          <p>- Academic Performance Scholarship (08/2023)</p>
+        </h4>
+      </div>
+      <!-- End .education-block -->
+    </div>
+    <!-- End #education -->
+
+    <div id="projects" class="background-alt">
+      <h2 class="heading">Projects</h2>
+      <div class="container">
+        <div class="row">
+          <div class="project shadow-large">
+            <div class="project-image">
+              <img src="./images/overview.png" width="305px" height="250px" />
+            </div>
+            <!-- End .project-image -->
+            <div class="project-info">
+              <p style="font-weight: bold">E-commerce Sales Analysi</p>
+              <p>
+                - Design Datawarehouse Schema for the original 9 raw datasets of
+                an OLTP system<br />
+                - Use SQL Server Integration Services to build ETL pipelines and
+                ingest data into SQL Server <br />
+                - Build dashboards to visualize business performance, diagnose
+                problems, suggest actions to improve delivery service and
+                resource allocation
+              </p>
+              <a
+                href="https://github.com/cdoge25/Brazil-Ecommerce"
+                target="_blank"
+                >View Project</a
+              >
+            </div>
+            <!-- End .project-info -->
+          </div>
+          <!-- End .project -->
+
+          <div class="project shadow-large">
+            <div class="project-image">
+              <img src="./images/Newloan.png" width="300px" height="250px" />
+            </div>
+            <!-- End .project-image -->
+            <div class="project-info">
+              <p style="font-weight: bold">LendingClub Loan Classification</p>
+              <p>
+                - Perform data cleaning and feature extraction on a dataset of
+                over 2 million rows.<br />
+                - Analyze multiple features and determine each features’
+                importance, reduce the number of features from 151 to 21<br />
+                - Build machine learning models to predict likelihood of a loan
+                default: Achieve accuracy over 90%, f1-score over 80%
+              </p>
+              <a
+                href="https://github.com/cdoge25/LendingClub-Loans"
+                target="_blank"
+                >View Project</a
+              >
+            </div>
+            <!-- End .project-info -->
+          </div>
+          <!-- End .project -->
+        </div>
+      </div>
+    </div>
+    <!-- End #projects -->
+
+    <div id="skills">
+      <h2 class="heading">Skills</h2>
+      <ul>
+        <li>Python</li>
+        <li>SQL</li>
+        <li>Power BI</li>
+        <li>Excel</li>
+        <li>Linux Bash Scrip</li>
+        <li>Git</li>
+        <li>Docker</li>
+      </ul>
+    </div>
+    <!-- End #skills -->
+
+    <div id="contact">
+      <h2>Contact me</h2>
+      <div id="contact-form">
+        <i class="fa fa-solid fa-phone" style="margin-right: 9.5rem">
+          <span style="margin-left: 3px">(+84) 334 109 638</span></i
+        >
+
+        <br />
+        <i class="fa fa-solid fa-envelope" style="margin-left: 0.6rem"></i
+        ><span style="margin-left: 0.3rem">: hainguyenducthien@gmail.com</span>
+        <i class="fa fa-brands fa-linkedin" style="margin-left: 4rem"
+          ><span style="margin-left: 0.5rem"
+            >: https://www.linkedin.com/in/haindt25/</span
+          ></i
+        >
+        <br />
+        <i class="fa fa-github" style="margin-right: 2.7rem"
+          ><span style="margin-left: 6px"
+            >: https://github.com/cdoge25/</span
+          ></i
+        >
+      </div>
+      <!-- End #contact-form -->
+    </div>
+    <!-- End #contact -->
+
+    <footer>
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-5 copyright">
+            <p>
+              Copyright &copy; <span id="current-year">2024</span>
+              Nguyen Duc Thien Hai
+            </p>
+          </div>
+          <div class="col-sm-2 top">
+            <span id="to-top">
+              <i class="fa fa-chevron-up" aria-hidden="true"></i>
+            </span>
+          </div>
+          <div class="col-sm-5 social">
+            <ul>
+              <li>
+                <a href="https://github.com/cdoge25/" target="_blank"
+                  ><i class="fa fa-github" aria-hidden="true"></i
+                ></a>
+              </li>
+              <li>
+                <a href="https://stackoverflow.com/" target="_blank"
+                  ><i class="fa fa-stack-overflow" aria-hidden="true"></i
+                ></a>
+              </li>
+              <li>
+                <a href="https://www.linkedin.com/in/haindt25/" target="_blank"
+                  ><i class="fa fa-linkedin" aria-hidden="true"></i
+                ></a>
+              </li>
+              <li>
+                <a href="https://www.facebook.com/" target="_blank"
+                  ><i class="fa fa-facebook" aria-hidden="true"></i
+                ></a>
+              </li>
+              <li>
+                <a href="https://twitter.com/" target="_blank"
+                  ><i class="fa fa-twitter" aria-hidden="true"></i
+                ></a>
+              </li>
+              <li>
+                <a href="https://plus.google.com/" target="_blank"
+                  ><i class="fa fa-google-plus" aria-hidden="true"></i
+                ></a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- End footer -->
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="js/scripts.min.js"></script>
+  </body>
+</html>
